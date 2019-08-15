@@ -1,0 +1,26 @@
+$(document).ready(function(){
+    $("#day1").click(function(){
+        $("#day1table").show(0);
+        $("#day2table").hide(0);
+        $("#day3table").hide(0);
+        $("#day4table").hide(0);
+    });
+    $("#day2").click(function(){
+        $("#day1table").hide(0);
+        $("#day2table").show(0);
+        $("#day3table").hide(0);
+        $("#day4table").hide(0);
+    });
+    $("#day3").click(function(){
+        $("#day1table").hide(0);
+        $("#day2table").hide(0);
+        $("#day3table").show(0);
+        $("#day4table").hide(0);
+    });
+    $("#day4").click(function(){
+        $("#day1table").hide(0);
+        $("#day2table").hide(0);
+        $("#day3table").hide(0);
+        $("#day4table").show(0);
+    });
+  });
